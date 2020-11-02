@@ -1,0 +1,17 @@
+
+<br><br><br>
+
+
+<div class="container">
+    <h3>Update details</h3>
+    <Label for="name">Name</Label>
+    <input type="text" id="name" [(ngModel)]="student.name" class="form-control"/>
+    <Label for="course">Course</Label>
+    <input type="text" id="course" [(ngModel)]="student.course" class="form-control"/>
+    <Label for="fees">Fees</Label>
+    <input type="number" id="fee" [(ngModel)]="student.fee" class="form-control"/>
+    <Label for="marks">Marks</Label>
+    <input type="number" id="marks" [(ngModel)]="student.marks" class="form-control"/>
+
+    <button class="btn btn-success" (click) = updateStudent()>Save</button>
+</div>

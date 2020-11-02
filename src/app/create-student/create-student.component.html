@@ -1,0 +1,19 @@
+
+
+<br><br>
+
+
+<div class="container">
+    
+    <h3>Fill All The Credentials</h3>
+    <Label for="name">Name</Label>
+    <input type="text" id="name" [(ngModel)]="student.name" placeholder="Enter Name" class="form-control" [ngModelOptions]="{standalone:true}" required="required"/>
+    <Label for="course">Course</Label>
+    <input type="text" id="course" [(ngModel)]="student.course" class="form-control" placeholder="Enter Course" [ngModelOptions]="{standalone:true}" required="required"/>
+    <Label for="fees">Fees</Label>
+    <input type="number" id="fee" [(ngModel)]="student.fee" class="form-control" placeholder="Enter Course Charges with GST" [ngModelOptions]="{standalone:true}" required="required"/>
+    <Label for="marks">Marks</Label>
+    <input type="number" id="marks" [(ngModel)]="student.marks" class="form-control" placeholder="Enter Marks" [ngModelOptions]="{standalone:true}" required="required"/>
+    <br>
+<button class="btn btn-success" type="submit">Save</button>
+</div>

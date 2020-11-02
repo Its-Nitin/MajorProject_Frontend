@@ -1,0 +1,26 @@
+a{
+
+        width: 200px;
+        height: 200px;
+        align-content: center;
+        padding-top: 7% ;
+
+}
+#a1:hover{
+    margin-top: 15px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+}
+
+#a2{
+
+    margin-left: 100px;
+}
+#a2:hover{
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    margin-top: 15px;
+
+}
